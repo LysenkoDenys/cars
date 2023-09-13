@@ -17,7 +17,7 @@ const CarItem = ({ car }) => {
             currency: "USD",
           }).format(car.price)}
         </p>
-        <button>Read more</button>
+        <button className="btn">Read more</button>
       </div>
     </div>
   );

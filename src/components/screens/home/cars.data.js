@@ -12,6 +12,13 @@ const cars = [
     image:
       "https://edgecast-img.yahoo.net/mysterio/api/AE99E7760AADF4B7A319438215E6B4946753B65EFA7228D719B75E91FF22B93E/autoblog/resizefill_w1200_h675;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD20HOC021B021001.jpg",
   },
+  {
+    id: 3,
+    name: "Honda Jazz",
+    price: 19900,
+    image:
+      "https://www.vertumotors.com/images/new/vertu/car/honda/jazz/colour-swatches/solid-crystalblack.jpg",
+  },
 ];
 
 export default cars;
