@@ -1,13 +1,11 @@
-import { useState } from "react";
-import styles from "./Home.module.css";
+import { useState, useEffect } from "react";
 import CarItem from "./car-item/CarItem";
 import cars from "./cars.data";
 import CreateCarForm from "./create-car-form/CreateCarForm";
+import { CarService } from "../../../services/car.service";
 
 const Home = () => {
   const [carsNew, setCarsNew] = useState(cars);
-
-  console.log(carsNew); //
 
   return (
     <div>

@@ -14,15 +14,22 @@ h1 {
 }
 
 .btn {
-  display: block;
-  max-width: 200px;
-  padding: 6px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  padding: 6px 30px;
   border: none;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 8px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #111;
+  background-color: #fff;
+  font-size: small;
 }
 .btn:hover {
   background-color: #bcd1e6;
