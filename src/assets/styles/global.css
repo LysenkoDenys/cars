@@ -4,11 +4,16 @@
 }
 
 body {
-  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(27, 77, 27);
   color: #fff;
   padding: 20px;
   font-family: "Golos Text", sans-serif;
 }
+
 h1 {
   margin-bottom: 20px;
 }
@@ -30,7 +35,18 @@ h1 {
   color: #111;
   background-color: #fff;
   font-size: small;
+  box-shadow: 2px 2px 2px black;
 }
 .btn:hover {
   background-color: #bcd1e6;
+  box-shadow: 3px 3px 3px black;
+}
+.btn:active {
+  background-color: #337cc5;
+  transition: ease-in-out;
+  box-shadow: 1px 1px 1px black;
+}
+
+.wrapper {
+  width: 100%;
 }

@@ -8,7 +8,7 @@ const Home = () => {
   const [carsNew, setCarsNew] = useState(cars);
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>Cars catalog</h1>
       <CreateCarForm setCarsNew={setCarsNew} />
       <div>
