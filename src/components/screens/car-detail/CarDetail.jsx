@@ -22,7 +22,7 @@ const CarDetail = () => {
   if (!car) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="wrapper">
       <Link className="btn" to="/">
         Back
       </Link>

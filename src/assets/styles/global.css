@@ -48,5 +48,26 @@ h1 {
 }
 
 .wrapper {
-  width: 100%;
+  width: 800px;
+}
+@media (max-width: 992px) {
+  .wrapper {
+    width: 700px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper {
+    width: 500px;
+  }
+}
+@media (max-width: 479px) {
+  .wrapper {
+    width: 320px;
+  }
+}
+
+.player {
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }

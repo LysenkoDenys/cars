@@ -10,7 +10,7 @@ const cars = [
     name: "Honda Civic",
     price: 22545,
     image:
-      "https://edgecast-img.yahoo.net/mysterio/api/AE99E7760AADF4B7A319438215E6B4946753B65EFA7228D719B75E91FF22B93E/autoblog/resizefill_w1200_h675;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD20HOC021B021001.jpg",
+      "https://p.turbosquid.com/ts-thumb/aA/Zu1n73/2l/honda_civic_type_r_2023_0000/jpg/1659693021/600x600/fit_q87/7384dde55f7d70a21e2d9e926b82a0552f244c1a/honda_civic_type_r_2023_0000.jpg",
   },
   {
     id: 3,

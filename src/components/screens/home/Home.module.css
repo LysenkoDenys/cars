@@ -1,7 +1,7 @@
 .item {
   border: 1px solid gray;
   margin-bottom: 15px;
-  height: 520px;
+  height: 460px;
   border-radius: 5px;
   background-color: rgb(105, 105, 105);
   box-shadow: 2px 2px 2px black;
@@ -15,6 +15,21 @@
   border-radius: 5px;
   margin: 10px;
   box-shadow: 2px 2px 2px black;
+}
+@media (max-width: 992px) {
+  .image {
+    width: 675px;
+  }
+}
+@media (max-width: 767px) {
+  .image {
+    width: 475px;
+  }
+}
+@media (max-width: 479px) {
+  .image {
+    width: 300px;
+  }
 }
 
 .info {
