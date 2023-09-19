@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Video from "../../../../assets/video/auto-360p.mp4";
 
 const VideoPlayer = () => {
   const ref = useRef();
@@ -13,15 +14,17 @@ const VideoPlayer = () => {
 
   return (
     <div className="player">
-      <button onClick={handlePlay}>Play</button>
-      <button onClick={handlePause}>Pause</button>
-      <video
-        // src="https://www.shutterstock.com/video/clip-1057927591-autumn-full-swing-sun-rays-emerging-though"
-        ref={ref}
-        // width="600"
-      >
-        <source src="https://www.w3schools.com/html/movie.mp4" />
+      <video ref={ref}>
+        <source src={Video} type="video/mp4" />
       </video>
+      <div className="pads">
+        <button className="play" onClick={handlePlay}>
+          Play
+        </button>
+        <button className="pause" onClick={handlePause}>
+          Pause
+        </button>
+      </div>
     </div>
   );
 };

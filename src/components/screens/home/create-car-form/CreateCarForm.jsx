@@ -14,6 +14,7 @@ const CreateCarForm = ({ setCarsNew }) => {
 
   return (
     <form className={styles.form}>
+      <h2>Create new car:</h2>
       <input
         placeholder="Name"
         onChange={(event) =>
@@ -35,7 +36,7 @@ const CreateCarForm = ({ setCarsNew }) => {
         value={data.price}
       />
       <input
-        placeholder="Image"
+        placeholder="Image (URL)"
         onChange={(event) =>
           setData((prev) => ({
             ...prev,

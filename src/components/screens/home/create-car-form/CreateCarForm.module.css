@@ -19,3 +19,7 @@ form input {
 .form input:focus {
   border-color: aqua;
 }
+
+h2 {
+  margin-bottom: 10px;
+}

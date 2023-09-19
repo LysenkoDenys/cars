@@ -18,7 +18,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-.btn {
+.btn,
+.play,
+.pause {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,11 +39,15 @@ h1 {
   font-size: small;
   box-shadow: 2px 2px 2px black;
 }
-.btn:hover {
+.btn:hover,
+.play:hover,
+.pause:hover {
   background-color: #bcd1e6;
   box-shadow: 3px 3px 3px black;
 }
-.btn:active {
+.btn:active,
+.play:active,
+.pause:active {
   background-color: #337cc5;
   transition: ease-in-out;
   box-shadow: 1px 1px 1px black;
@@ -67,7 +73,33 @@ h1 {
 }
 
 .player {
-  border: 3px solid white;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
+  width: 800px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .player {
+    width: 700px;
+  }
+}
+@media (max-width: 767px) {
+  .player {
+    width: 500px;
+  }
+}
+@media (max-width: 479px) {
+  .player {
+    width: 320px;
+  }
+}
+
+.pads {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(105, 105, 105);
+  box-shadow: 2px 2px 2px black;
 }
