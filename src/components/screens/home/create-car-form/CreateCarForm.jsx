@@ -1,10 +1,15 @@
 import { useState } from "react";
+import { useForm } from "react-hook-form";
 import styles from "./CreateCarForm.module.css";
 
 const clearData = { name: "", price: "", image: "" };
 
 const CreateCarForm = ({ setCarsNew }) => {
   const [data, setData] = useState({ name: "", price: "", image: "" });
+
+  const { register, reset } = useForm({
+    mode: "onChange",
+  });
 
   const createCar = (event) => {
     event.preventDefault();
